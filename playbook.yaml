@@ -1,4 +1,4 @@
-- name: "manage worker1 and 2"
+- name: "manage worker1 and worker2"
   become: true
   tasks:
    -name: "ensure Viswanth user exists"
