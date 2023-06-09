@@ -1,5 +1,4 @@
 - name: "manage worker1 and 2"
-  host: all
   become: true
   tasks:
    -name: "ensure Viswanth user exists"
